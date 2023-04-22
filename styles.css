@@ -1,15 +1,23 @@
 body{
     font-family: sans-serif;
-    margin: 0 50px;
+    background-color: grey;
 }
 
 .container{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
+    margin-top: 5rem;
 }
 
 #todos{
     width: 400px;
+}
+
+.todotextarea{
+    border: 2px solid blue;
+    border-radius: 1rem;
 }
 
 i{
@@ -28,6 +36,12 @@ i{
 }
 
 #msg{
-
     color: red;
+}
+
+.submit{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: blue;
 }
